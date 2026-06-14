@@ -1,0 +1,41 @@
+{
+  "name": "cc-hooks",
+  "version": "1.0.0",
+  "description": "Real-time Claude Code hooks monitor — captures all 30 event types with trimmed stream and collapsible JSON detail view",
+  "type": "module",
+  "license": "MIT",
+  "author": "huypl53",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huypl53/cc-hooks.git"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "hooks",
+    "monitor",
+    "devtools",
+    "sse",
+    "realtime"
+  ],
+  "bin": {
+    "cc-hooks": "./server.mjs"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "install-hooks": "bash install.sh",
+    "uninstall-hooks": "bash uninstall.sh",
+    "export": "bash export.sh"
+  },
+  "files": [
+    "server.mjs",
+    "ui.html",
+    "hook.sh",
+    "install.sh",
+    "uninstall.sh",
+    "export.sh"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,6 @@
+data/
+hooks-export.json
+node_modules/
+*.log
+.DS_Store
+.claude/
